@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
+app.listen(3000, () => console.log("Server Running"));
 console.log(process.env.EMAIL_USER);
 console.log(process.env.EMAIL_PASS);
 
@@ -35,13 +35,14 @@ router.post("/contact", (req, res) => {
     const phone = req.body.phone;
     const mail = {
         from: name,
-        to: "gauranshigupta2000@gmail.com",
+        to: "itsnotmyemail99999@gmail.com",
         subject: "Contact Form Submission - Portfolio",
         html: `<p>Name: ${name}</p>
         <p>Email: ${email}</p>
         <p>Phone: ${phone}</p>
         <p>Message: ${message}</p>`,
     };
+    console.log(mail);
     contactEmail.sendMail(mail, (error) => {
         if (error) {
             res.json(error);

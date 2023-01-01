@@ -40,12 +40,12 @@ export const Skills = () => {
                             Working in the web-team in USS ACM Student Chapter from last 5 months. Did internship in The Sparks Foundation as a Web Developer and design intern and created Full Stack Banking project.
                             </p>
                             <p>
-                            Node.js | Express.js | JavaScript, jQuery, AJAX | Responsive Design |  SEO | SQL MySQL | Chrome, Firefox, Edge, IE | NoSQL MongoDB | WordPress |  HTML, HTML5, CSS, CSS3
+                            Solidity, Blockchain, Smart Contract, Dapps, DeFi |Node.js | Express.js | JavaScript, jQuery, AJAX | Responsive Design |  SEO | SQL MySQL | Chrome, Firefox, Edge, IE | NoSQL MongoDB | WordPress |  HTML, HTML5, CSS, CSS3
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>Web2 Development</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Image" />
@@ -54,6 +54,10 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
                                     <h5>Machine Learning</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="Image" />
+                                    <h5>Web3 Development</h5>
                                 </div>
                                 
                             </Carousel>

@@ -4,6 +4,7 @@ import A_logo1 from "../assets/img/A_logo1.png"
 import navIcon1 from "../assets/img/nav-icon1.svg"
 import navIcon2 from "../assets/img/nav-icon2.svg"
 import navIcon3 from "../assets/img/nav-icon3.svg"
+import navIcon4 from "../assets/img/image.png"
 
 
 export const NavBar = () => {
@@ -48,6 +49,7 @@ export const NavBar = () => {
                             <a href="https://www.linkedin.com/in/anant-jain-bb49b9205"><img src={navIcon1} alt="" /></a>
                             <a href="https://www.facebook.com/profile.php?id=100009331331596"><img src={navIcon2} alt="" /></a>
                             <a href="https://instagram.com/anant__jainn?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
+                            <a href="https://github.com/AnantJainn"><img src={navIcon4} alt="" /></a>
                         </div>
                         <a href="#connect">
                             <button className="vvd" onClick={() => console.log('connect')} href="#connect"><span>Let's Connect</span></button>
